@@ -4,13 +4,18 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="WorkHorse.MainPage">
+             x:Class="WorkHorse.MainPage"
+             Title="WorkHorse - Shift Tracker">
 
-    <StackLayout>
+    <StackLayout Margin="20,35,20,20">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Button Text="Start Shift" 
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Center" />
+        
+        <Label Text="Built by Sam Croft!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           HeightRequest="100" />        
     </StackLayout>
 
 </ContentPage>

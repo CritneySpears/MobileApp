@@ -17,5 +17,10 @@ namespace WorkHorse
         {
             InitializeComponent();
         }
+
+        void OnButtonClicked(object sender, EventArgs e)
+        {
+            (sender as Button).Text = "End Shift";
+        }
     }
 }
