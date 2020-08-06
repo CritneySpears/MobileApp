@@ -1,16 +1,31 @@
 ﻿using System;
+using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using WorkHorse.Data;
 
 namespace WorkHorse
 {
     public partial class App : Application
     {
+        static ShiftDatabase database;
+
+        public static ShiftDatabase Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new ShiftDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Shifts.db3"));
+                }
+                return database;
+            }
+        }
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

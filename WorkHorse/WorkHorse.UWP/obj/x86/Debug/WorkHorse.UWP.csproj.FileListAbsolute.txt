@@ -311,3 +311,11 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160715180000000.json
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758552200000000.json
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLite-net.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\e_sqlite3.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Memory.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.Memory.SR.resw

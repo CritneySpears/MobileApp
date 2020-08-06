@@ -57,3 +57,14 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Debug\WorkHorse.iOS.csproj.CopyComplete
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Debug\WorkHorse.iOS.exe
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Debug\WorkHorse.iOS.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Debug\Plugin.SimpleAudioPlayer.dll

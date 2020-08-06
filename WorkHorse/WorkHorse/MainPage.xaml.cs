@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using WorkHorse.Models;
 
 namespace WorkHorse
 {
@@ -18,9 +19,50 @@ namespace WorkHorse
             InitializeComponent();
         }
 
-        void OnButtonClicked(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            (sender as Button).Text = "End Shift";
+            base.OnAppearing();
+
+            listView.ItemsSource = await App.Database.GetShiftsAsync();
         }
+
+        async void OnShiftAddedClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ShiftEntryPage
+            {
+                BindingContext = new ClockInstance()
+            });
+        }
+
+        async void OnClearClicked(Object sender, EventArgs e)
+        {
+            await App.Database.WipeDatabase();
+            var vUpdatedPage = new MainPage();
+            Navigation.InsertPageBefore(vUpdatedPage, this);
+            await Navigation.PopAsync();
+        }
+
+        //async void OnExportClicked(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new ExportPage
+        //    {
+        //    
+        //    });
+        //}
+
+
+        // WILL USE THIS TO EDIT INFORMATION WHEN SELECTED.
+        //async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        //{
+        //    if (e.SelectedItem != null)
+        //    {
+        //        await Navigation.PushAsync(new ShiftEntryPage
+        //        {
+        //            BindingContext = e.SelectedItem as ClockInstance
+        //        });
+        //    }
+        //}
+
+        // ItemSelected="OnListViewItemSelected"> This is required in the layout file within the list to enabled functionality
     }
 }

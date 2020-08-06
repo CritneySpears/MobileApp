@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+5zQpWlAWxyk9P5gZ1aik5bahRxCU3BZtEZeNxmYON+HaZeu0vTVPQFTK0PIB76dJPOk/RliDOKOjhZxBGmWHA==",
+  "dgSpecHash": "EDcLCemhgAkDvkKpCfZxBtVdhjuZOYh8bF8PEqrzSREbgzzQDl8gIMfxfbTWyaOs1hl97ZuJvwH0ahT5XFomXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse.UWP\\WorkHorse.UWP.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,16 @@
     "C:\\Users\\Thefu\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.1.8\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.1.8.nupkg.sha512",
     "C:\\Users\\Thefu\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.1.2\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.1.2.nupkg.sha512",
     "C:\\Users\\Thefu\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.1.9\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.1.9.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Thefu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Thefu\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\Thefu\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.4.0\\xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
