@@ -39,9 +39,8 @@ namespace WorkHorse
 
             for (int i = 0; i < startTimes.Count(); i++)
             {
-                TimeSpan hours = endTimes[i].Subtract(startTimes[i]);
-                double timeDone = hours.TotalHours;
-                hoursDone += timeDone;
+                TimeSpan span = endTimes[i].Subtract(startTimes[i]);
+                hoursDone = span.TotalHours;
             }
         }
 
