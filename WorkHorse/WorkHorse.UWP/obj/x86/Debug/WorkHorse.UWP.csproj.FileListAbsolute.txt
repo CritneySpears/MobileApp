@@ -319,3 +319,8 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Memory.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.Memory.SR.resw
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\Plugin.SimpleAudioPlayer.pri.xml

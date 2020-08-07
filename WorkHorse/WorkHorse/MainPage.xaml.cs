@@ -19,11 +19,30 @@ namespace WorkHorse
             InitializeComponent();
         }
 
+        protected double hoursDone;
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
 
             listView.ItemsSource = await App.Database.GetShiftsAsync();
+            hoursDone = 0;
+            CalculateTotalHoursDone();
+            listView.Header = hoursDone.ToString();
+        }
+
+        async void CalculateTotalHoursDone()
+        {
+            List<DateTime> startTimes = await App.Database.GetShiftStartTimes();
+            List<DateTime> endTimes = await App.Database.GetShiftEndTimes();
+
+
+            for (int i = 0; i < startTimes.Count(); i++)
+            {
+                TimeSpan hours = endTimes[i].Subtract(startTimes[i]);
+                double timeDone = hours.TotalHours;
+                hoursDone += timeDone;
+            }
         }
 
         async void OnShiftAddedClicked(object sender, EventArgs e)

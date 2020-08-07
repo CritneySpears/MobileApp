@@ -65,3 +65,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhoneS
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhoneSimulator\Debug\WorkHorse.iOS.csproj.CopyComplete
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhoneSimulator\Debug\WorkHorse.iOS.exe
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhoneSimulator\Debug\WorkHorse.iOS.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhoneSimulator\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhoneSimulator\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhoneSimulator\Debug\Plugin.SimpleAudioPlayer.dll

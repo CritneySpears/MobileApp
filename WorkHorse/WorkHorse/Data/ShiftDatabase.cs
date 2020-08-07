@@ -47,5 +47,15 @@ namespace WorkHorse.Data
         }
 
         public Task WipeDatabase() => _database.DeleteAllAsync<ClockInstance>();
+
+        public Task<List<DateTime>> GetShiftStartTimes()
+        {
+            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ClockInstance] WHERE [ClockString] == 'Shift Started'");
+        }
+
+        public Task<List<DateTime>> GetShiftEndTimes()
+        {
+            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ClockInstance] WHERE [ClockString] == 'Shift Ended'");
+        }
     }
 }
