@@ -19,6 +19,7 @@ namespace WorkHorse
         {
             InitializeComponent();
             BindingContext = new ShiftInstance();
+            ClockedOut();
         }
 
         async void OnShiftViewClicked(object sender, EventArgs e)
@@ -35,20 +36,37 @@ namespace WorkHorse
             await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
 
-            StartShiftButton.IsEnabled = false;
-            EndShiftButton.IsEnabled = true;
+            ClockedIn();
         }
 
         async void OnShiftEndButtonClicked(object sender, EventArgs e)
         {
+            EndShiftButton.IsEnabled = false;
             var shift = await App.Database.GetLastShiftAsync();
             shift.EndTime = DateTime.Now;
 
             await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
 
-            StartShiftButton.IsEnabled = true;
+            var vUpdatedPage = new MainPage();
+            Navigation.InsertPageBefore(vUpdatedPage, this);
+            await Navigation.PopAsync();
+        }
+
+        public void ClockedOut()
+        {
             EndShiftButton.IsEnabled = false;
+            EndShiftButton.BackgroundColor = Color.FromHex("#83d1fb");
+            StartShiftButton.IsEnabled = true;
+            StartShiftButton.BackgroundColor = Color.FromHex("#0289d1");
+        }
+
+        public void ClockedIn()
+        {
+            StartShiftButton.IsEnabled = false;
+            StartShiftButton.BackgroundColor = Color.FromHex("#83d1fb");
+            EndShiftButton.IsEnabled = true;
+            EndShiftButton.BackgroundColor = Color.FromHex("#0289d1");
         }
     }
 }

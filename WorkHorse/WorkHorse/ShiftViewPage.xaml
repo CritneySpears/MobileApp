@@ -14,12 +14,12 @@
         <StackLayout Margin="20,35,20,20">
             <!-- Place new controls here -->
             <ListView x:Name="listView"
-              Header="Shifts"
+              Header="Hours Done: "
               Margin="20">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding StartTime}"
-                          Detail="{Binding EndTime}"                          
+                          Detail="{Binding EndTime}"                
                           />
                     </DataTemplate>
                 </ListView.ItemTemplate>

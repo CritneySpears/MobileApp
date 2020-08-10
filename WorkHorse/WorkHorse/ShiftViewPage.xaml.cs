@@ -25,13 +25,13 @@ namespace WorkHorse
             listView.ItemsSource = await App.Database.GetShiftsAsync();
             hoursDone = 0;
             //CalculateTotalHoursDone();
-            listView.Header = hoursDone.ToString();
+            listView.Header += hoursDone.ToString();
         }
 
         async void OnClearClicked(Object sender, EventArgs e)
         {
             await App.Database.WipeDatabase();
-            var vUpdatedPage = new MainPage();
+            var vUpdatedPage = new ShiftViewPage();
             Navigation.InsertPageBefore(vUpdatedPage, this);
             await Navigation.PopAsync();
         }
