@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using WorkHorse.Models;
+using System.Globalization;
 
 namespace WorkHorse
 {
@@ -16,16 +17,14 @@ namespace WorkHorse
             InitializeComponent();
         }
 
-        protected double hoursDone;
+        protected string hoursDone;
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
 
             listView.ItemsSource = await App.Database.GetShiftsAsync();
-            hoursDone = 0;
             CalculateTotalHoursDone();
-            listView.Header += hoursDone.ToString();
         }
 
         async void OnClearClicked(Object sender, EventArgs e)
@@ -40,7 +39,6 @@ namespace WorkHorse
         {
             List<ShiftInstance> shifts = await App.Database.GetShiftsAsync();
             double totalHours = 0;
-
             foreach(ShiftInstance shift in shifts)
             {
                 if (shift.EndTime != null)
@@ -49,7 +47,8 @@ namespace WorkHorse
                     totalHours += dateDiff;
                 }
             }
-            hoursDone = totalHours;
+            hoursDone = totalHours.ToString("F");
+            listView.Header = "Hours Done: " + hoursDone;
         }
 
         //async void OnExportClicked(object sender, EventArgs e)
@@ -62,15 +61,15 @@ namespace WorkHorse
 
 
         // WILL USE THIS TO EDIT INFORMATION WHEN SELECTED.
-        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {/*
+        async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
             if (e.SelectedItem != null)
             {
                 await Navigation.PushAsync(new ShiftEditPage
                 {
-                    BindingContext = e.SelectedItem as ClockInstance
+                    BindingContext = e.SelectedItem as ShiftInstance
                 });
-            }*/
+            }
         }
 
         // ItemSelected="OnListViewItemSelected"> This is required in the layout file within the list to enabled functionality

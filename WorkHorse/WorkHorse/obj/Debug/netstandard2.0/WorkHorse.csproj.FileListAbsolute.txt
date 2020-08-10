@@ -13,3 +13,4 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Debug\netst
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Debug\netstandard2.0\WorkHorse.csproj.CoreCompileInputs.cache
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Debug\netstandard2.0\ShiftViewPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Debug\netstandard2.0\ShiftEditPage.xaml.g.cs
