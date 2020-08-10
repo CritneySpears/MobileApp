@@ -1,0 +1,15 @@
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\WorkHorse.deps.json
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\WorkHorse.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\ref\WorkHorse.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\WorkHorse.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\ShiftEditPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\ShiftViewPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\WorkHorse.AssemblyInfoInputs.cache
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\WorkHorse.AssemblyInfo.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\WorkHorse.csproj.CoreCompileInputs.cache
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\WorkHorse.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\ref\WorkHorse.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\WorkHorse.pdb

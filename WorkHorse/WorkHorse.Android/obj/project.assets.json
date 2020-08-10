@@ -1121,6 +1121,7 @@
         "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
         "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll.mdb",
         "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
         "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
         "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
