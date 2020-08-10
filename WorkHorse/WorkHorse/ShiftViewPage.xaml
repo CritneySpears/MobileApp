@@ -6,16 +6,21 @@
              mc:Ignorable="d"
              x:Class="WorkHorse.ShiftViewPage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Export to Excel" />
-        <ToolbarItem Text="Clear Database"
-                     Clicked="OnClearClicked" />
+        <ToolbarItem 
+            Text="Export to Excel" />
+        <ToolbarItem 
+            Text="Clear Database"
+            Clicked="OnClearClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout Margin="20,35,20,20">
+        <StackLayout 
+            Margin="20,35,20,20">
             <!-- Place new controls here -->
-            <ListView x:Name="listView"
-              Header="Hours Done: "
-              Margin="20">
+            <ListView 
+                x:Name="listView"
+                Header="Hours Done: "
+                Margin="20"
+                ItemSelected="OnListViewItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding StartTime}"

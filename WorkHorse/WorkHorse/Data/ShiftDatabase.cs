@@ -57,12 +57,12 @@ namespace WorkHorse.Data
 
         public Task<List<DateTime>> GetShiftStartTimes()
         {
-            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ShiftInstance] WHERE [ClockString] == 'Shift Started'");
+            return _database.QueryAsync<DateTime>("SELECT [StartTime] FROM [ShiftInstance]");
         }
 
         public Task<List<DateTime>> GetShiftEndTimes()
         {
-            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ShiftInstance] WHERE [ClockString] == 'Shift Ended'");
+            return _database.QueryAsync<DateTime>("SELECT [EndTime] FROM [ShiftInstance]");
         }
     }
 }

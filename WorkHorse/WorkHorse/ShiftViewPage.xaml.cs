@@ -24,8 +24,8 @@ namespace WorkHorse
 
             listView.ItemsSource = await App.Database.GetShiftsAsync();
             hoursDone = 0;
-            //CalculateTotalHoursDone();
-            listView.Header += hoursDone.ToString();
+            CalculateTotalHoursDone();
+            listView.Header = hoursDone.ToString();
         }
 
         async void OnClearClicked(Object sender, EventArgs e)
@@ -42,10 +42,10 @@ namespace WorkHorse
             List<DateTime> endTimes = await App.Database.GetShiftEndTimes();
 
 
-            for (int i = 0; i < startTimes.Count(); i++)
+            for (int i = 0; i < endTimes.Count(); i++)
             {
                 TimeSpan span = endTimes[i].Subtract(startTimes[i]);
-                hoursDone = span.TotalHours;
+                hoursDone += span.TotalHours;
             }
         }
 
@@ -59,16 +59,16 @@ namespace WorkHorse
 
 
         // WILL USE THIS TO EDIT INFORMATION WHEN SELECTED.
-        //async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
-        //{
-        //    if (e.SelectedItem != null)
-        //    {
-        //        await Navigation.PushAsync(new ShiftEditPage
-        //        {
-        //            BindingContext = e.SelectedItem as ClockInstance
-        //        });
-        //    }
-        //}
+        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {/*
+            if (e.SelectedItem != null)
+            {
+                await Navigation.PushAsync(new ShiftEditPage
+                {
+                    BindingContext = e.SelectedItem as ClockInstance
+                });
+            }*/
+        }
 
         // ItemSelected="OnListViewItemSelected"> This is required in the layout file within the list to enabled functionality
     }
