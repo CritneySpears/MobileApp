@@ -41,7 +41,7 @@ namespace WorkHorse
             double totalHours = 0;
             foreach(ShiftInstance shift in shifts)
             {
-                if (shift.EndTime != null)
+                if (shift.EndTime >= shift.StartTime)
                 {
                     double dateDiff = (shift.EndTime - shift.StartTime).TotalHours;
                     totalHours += dateDiff;
