@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using WorkHorse.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,13 +17,17 @@ namespace WorkHorse
             InitializeComponent();
         }
 
-        private void OnSaveButtonClicked(object sender, EventArgs e)
+        private async void OnSaveButtonClicked(object sender, EventArgs e)
         {
-
+            var shift = (ShiftInstance)BindingContext;
+            await App.Database.SaveShiftAsync(shift);
+            await Navigation.PopAsync();
         }
-        private void OnDeleteButtonClicked(object sender, EventArgs e)
+        private async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
-
+            var shift = (ShiftInstance)BindingContext;
+            await App.Database.DeleteShiftAsync(shift);
+            await Navigation.PopAsync();
         }
     }
 }
