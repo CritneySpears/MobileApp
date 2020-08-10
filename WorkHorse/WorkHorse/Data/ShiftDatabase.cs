@@ -54,15 +54,5 @@ namespace WorkHorse.Data
         }
 
         public Task WipeDatabase() => _database.DeleteAllAsync<ShiftInstance>();
-
-        public Task<List<DateTime>> GetShiftStartTimes()
-        {
-            return _database.QueryAsync<DateTime>("SELECT [StartTime] FROM [ShiftInstance]");
-        }
-
-        public Task<List<DateTime>> GetShiftEndTimes()
-        {
-            return _database.QueryAsync<DateTime>("SELECT [EndTime] FROM [ShiftInstance]");
-        }
     }
 }

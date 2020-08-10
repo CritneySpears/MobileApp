@@ -25,7 +25,7 @@ namespace WorkHorse
             listView.ItemsSource = await App.Database.GetShiftsAsync();
             hoursDone = 0;
             CalculateTotalHoursDone();
-            listView.Header = hoursDone.ToString();
+            listView.Header += hoursDone.ToString();
         }
 
         async void OnClearClicked(Object sender, EventArgs e)
@@ -38,15 +38,18 @@ namespace WorkHorse
 
         async void CalculateTotalHoursDone()
         {
-            List<DateTime> startTimes = await App.Database.GetShiftStartTimes();
-            List<DateTime> endTimes = await App.Database.GetShiftEndTimes();
+            List<ShiftInstance> shifts = await App.Database.GetShiftsAsync();
+            double totalHours = 0;
 
-
-            for (int i = 0; i < endTimes.Count(); i++)
+            foreach(ShiftInstance shift in shifts)
             {
-                TimeSpan span = endTimes[i].Subtract(startTimes[i]);
-                hoursDone += span.TotalHours;
+                if (shift.EndTime != null)
+                {
+                    double dateDiff = (shift.EndTime - shift.StartTime).TotalHours;
+                    totalHours += dateDiff;
+                }
             }
+            hoursDone = totalHours;
         }
 
         //async void OnExportClicked(object sender, EventArgs e)
