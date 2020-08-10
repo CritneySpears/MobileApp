@@ -14,22 +14,29 @@ namespace WorkHorse.Data
         public ShiftDatabase(string dbPath)
         {
             _database = new SQLiteAsyncConnection(dbPath);
-            _database.CreateTableAsync<ClockInstance>().Wait();
+            _database.CreateTableAsync<ShiftInstance>().Wait();
         }
 
-        public Task<List<ClockInstance>> GetShiftsAsync()
+        public Task<List<ShiftInstance>> GetShiftsAsync()
         {
-            return _database.Table<ClockInstance>().ToListAsync();
+            return _database.Table<ShiftInstance>().ToListAsync();
         }
 
-        public Task<ClockInstance> GetShiftAsync(int id)
+        public Task<ShiftInstance> GetShiftAsync(int id)
         {
-            return _database.Table<ClockInstance>()
+            return _database.Table<ShiftInstance>()
                             .Where(i => i.ID == id)
                             .FirstOrDefaultAsync();
         }
 
-        public Task<int> SaveShiftAsync(ClockInstance instance)
+        public Task<ShiftInstance> GetLastShiftAsync()
+        {
+            return _database.Table<ShiftInstance>()
+                            .OrderByDescending(i => i.ID)
+                            .FirstOrDefaultAsync();
+        }
+
+        public Task<int> SaveShiftAsync(ShiftInstance instance)
         {
             if (instance.ID != 0)
             {
@@ -41,21 +48,21 @@ namespace WorkHorse.Data
             }
         }
 
-        public Task<int> DeleteShiftAsync(ClockInstance instance)
+        public Task<int> DeleteShiftAsync(ShiftInstance instance)
         {
             return _database.DeleteAsync(instance);
         }
 
-        public Task WipeDatabase() => _database.DeleteAllAsync<ClockInstance>();
+        public Task WipeDatabase() => _database.DeleteAllAsync<ShiftInstance>();
 
         public Task<List<DateTime>> GetShiftStartTimes()
         {
-            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ClockInstance] WHERE [ClockString] == 'Shift Started'");
+            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ShiftInstance] WHERE [ClockString] == 'Shift Started'");
         }
 
         public Task<List<DateTime>> GetShiftEndTimes()
         {
-            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ClockInstance] WHERE [ClockString] == 'Shift Ended'");
+            return _database.QueryAsync<DateTime>("SELECT [Time] FROM [ShiftInstance] WHERE [ClockString] == 'Shift Ended'");
         }
     }
 }

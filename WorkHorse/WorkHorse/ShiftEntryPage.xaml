@@ -8,7 +8,9 @@
     <ContentPage.Content>
         <StackLayout Margin="20,35,20,20">
             <!-- Place new controls here -->
-            <Button Text="Clock In" 
+            <Button 
+                x:Name="StartShiftButton"
+                Text="Clock In" 
                 WidthRequest="200"
                 FontSize="20"
                 FontAttributes="Bold"
@@ -18,20 +20,22 @@
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand"
                 CornerRadius="5" />
-            <Button Text="Clock Out"
-                    WidthRequest="200"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                    TextColor="White"
-                    BackgroundColor="#0289D1"
-                    Clicked="OnShiftEndButtonClicked"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="CenterAndExpand"
-                    CornerRadius="5"
-                    />
-            <Label Text="Built by Sam Croft!" 
-           HorizontalOptions="Center"
-           HeightRequest="100" />
+            <Button 
+                x:Name="EndShiftButton"
+                Text="Clock Out"
+                WidthRequest="200"
+                FontSize="20"
+                FontAttributes="Bold"
+                TextColor="White"
+                BackgroundColor="#0289D1"
+                Clicked="OnShiftEndButtonClicked"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                CornerRadius="5" />
+            <Label 
+                Text="Built by Sam Croft!" 
+                HorizontalOptions="Center"
+                HeightRequest="100" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

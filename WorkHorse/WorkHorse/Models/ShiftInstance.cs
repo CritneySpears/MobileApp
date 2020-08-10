@@ -1,16 +1,16 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using SQLite;
 
 namespace WorkHorse.Models
 {
-    public class ClockInstance
+    public class ShiftInstance
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public DateTime Date { get; set; }
-        public DateTime Time { get; set; }
-        public string ClockString { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
     }
 }

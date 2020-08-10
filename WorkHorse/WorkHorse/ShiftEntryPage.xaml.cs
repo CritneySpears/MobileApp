@@ -18,22 +18,27 @@ namespace WorkHorse
 
         async void OnShiftStartButtonClicked(object sender, EventArgs e)
         {
-            var shift = (ClockInstance)BindingContext;
+            var shift = (ShiftInstance)BindingContext;
             shift.Date = DateTime.Today;
-            shift.Time = DateTime.Now;
-            shift.ClockString = "Shift Started";
+            shift.StartTime = DateTime.Now;
+
             await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
+
+            StartShiftButton.IsEnabled = false;
+            EndShiftButton.IsEnabled = true;
         }
 
         async void OnShiftEndButtonClicked(object sender, EventArgs e)
         {
-            var shift = (ClockInstance)BindingContext;
-            shift.Date = DateTime.Today;
-            shift.Time = DateTime.Now;
-            shift.ClockString = "Shift Ended";
+            var shift = await App.Database.GetLastShiftAsync();
+            shift.EndTime = DateTime.Now;
+
             await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
+
+            StartShiftButton.IsEnabled = true;
+            EndShiftButton.IsEnabled = false;
         }
     }
 }

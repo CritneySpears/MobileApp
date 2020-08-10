@@ -27,7 +27,7 @@ namespace WorkHorse
 
             listView.ItemsSource = await App.Database.GetShiftsAsync();
             hoursDone = 0;
-            CalculateTotalHoursDone();
+            //CalculateTotalHoursDone();
             listView.Header = hoursDone.ToString();
         }
 
@@ -48,7 +48,7 @@ namespace WorkHorse
         {
             await Navigation.PushAsync(new ShiftEntryPage
             {
-                BindingContext = new ClockInstance()
+                BindingContext = new ShiftInstance()
             });
         }
 

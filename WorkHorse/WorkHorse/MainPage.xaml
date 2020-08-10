@@ -20,8 +20,8 @@
               Margin="20">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding ClockString}"
-                          Detail="{Binding Time}"                          
+                <TextCell Text="{Binding StartTime}"
+                          Detail="{Binding EndTime}"                          
                           />
             </DataTemplate>
         </ListView.ItemTemplate>
