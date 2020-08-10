@@ -35,13 +35,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="ShiftEntryPage.xaml.cs">
-      <DependentUpon>ShiftEntryPage.xaml</DependentUpon>
+    <Compile Update="ShiftViewPage.xaml.cs">
+      <DependentUpon>ShiftViewPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="ShiftEntryPage.xaml">
+    <EmbeddedResource Update="ShiftViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

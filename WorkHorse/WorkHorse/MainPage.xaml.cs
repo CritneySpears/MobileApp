@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using WorkHorse.Models;
+using Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat;
 
 namespace WorkHorse
 {
@@ -17,70 +18,37 @@ namespace WorkHorse
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new ShiftInstance();
         }
 
-        protected double hoursDone;
-
-        protected override async void OnAppearing()
+        async void OnShiftViewClicked(object sender, EventArgs e)
         {
-            base.OnAppearing();
-
-            listView.ItemsSource = await App.Database.GetShiftsAsync();
-            hoursDone = 0;
-            //CalculateTotalHoursDone();
-            listView.Header = hoursDone.ToString();
+            await Navigation.PushAsync(new ShiftViewPage());
         }
 
-        async void CalculateTotalHoursDone()
+        async void OnShiftStartButtonClicked(object sender, EventArgs e)
         {
-            List<DateTime> startTimes = await App.Database.GetShiftStartTimes();
-            List<DateTime> endTimes = await App.Database.GetShiftEndTimes();
+            var shift = (ShiftInstance)BindingContext;
+            shift.Date = DateTime.Today;
+            shift.StartTime = DateTime.Now;
 
-
-            for (int i = 0; i < startTimes.Count(); i++)
-            {
-                TimeSpan span = endTimes[i].Subtract(startTimes[i]);
-                hoursDone = span.TotalHours;
-            }
-        }
-
-        async void OnShiftAddedClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ShiftEntryPage
-            {
-                BindingContext = new ShiftInstance()
-            });
-        }
-
-        async void OnClearClicked(Object sender, EventArgs e)
-        {
-            await App.Database.WipeDatabase();
-            var vUpdatedPage = new MainPage();
-            Navigation.InsertPageBefore(vUpdatedPage, this);
+            await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
+
+            StartShiftButton.IsEnabled = false;
+            EndShiftButton.IsEnabled = true;
         }
 
-        //async void OnExportClicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new ExportPage
-        //    {
-        //    
-        //    });
-        //}
+        async void OnShiftEndButtonClicked(object sender, EventArgs e)
+        {
+            var shift = await App.Database.GetLastShiftAsync();
+            shift.EndTime = DateTime.Now;
 
+            await App.Database.SaveShiftAsync(shift);
+            await Navigation.PopAsync();
 
-        // WILL USE THIS TO EDIT INFORMATION WHEN SELECTED.
-        //async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
-        //{
-        //    if (e.SelectedItem != null)
-        //    {
-        //        await Navigation.PushAsync(new ShiftEntryPage
-        //        {
-        //            BindingContext = e.SelectedItem as ClockInstance
-        //        });
-        //    }
-        //}
-
-        // ItemSelected="OnListViewItemSelected"> This is required in the layout file within the list to enabled functionality
+            StartShiftButton.IsEnabled = true;
+            EndShiftButton.IsEnabled = false;
+        }
     }
 }
