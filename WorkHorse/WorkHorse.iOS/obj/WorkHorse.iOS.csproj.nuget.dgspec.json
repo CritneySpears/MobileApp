@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj": {
-                "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj"
+              "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj": {
+                "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj"
               }
             }
           }
@@ -65,12 +65,12 @@
         }
       }
     },
-    "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj": {
+    "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj",
+        "projectUniqueName": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj",
         "projectName": "Croftware Shift Tracker",
-        "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj",
+        "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj",
         "packagesPath": "C:\\Users\\Thefu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\obj\\",
         "projectStyle": "PackageReference",

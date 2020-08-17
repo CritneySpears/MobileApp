@@ -1,20 +1,20 @@
 	.section	.rodata.map_aname.0,"aMS",%progbits,1
 	.type	.L.map_aname.0, %object
 .L.map_aname.0:
-	.asciz	"Xamarin.Android.Support.Compat"
-	.size	.L.map_aname.0, 31
+	.asciz	"CroftWareShiftTracker.Android"
+	.size	.L.map_aname.0, 30
 
 	.section	.rodata.map_aname.1,"aMS",%progbits,1
 	.type	.L.map_aname.1, %object
 .L.map_aname.1:
-	.asciz	"Xamarin.Android.Support.v7.CardView"
-	.size	.L.map_aname.1, 36
+	.asciz	"Xamarin.Android.Support.Compat"
+	.size	.L.map_aname.1, 31
 
 	.section	.rodata.map_aname.2,"aMS",%progbits,1
 	.type	.L.map_aname.2, %object
 .L.map_aname.2:
-	.asciz	"WorkHorse.Android"
-	.size	.L.map_aname.2, 18
+	.asciz	"Xamarin.Android.Support.v7.CardView"
+	.size	.L.map_aname.2, 36
 
 	.section	.rodata.map_aname.3,"aMS",%progbits,1
 	.type	.L.map_aname.3, %object

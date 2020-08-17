@@ -132,9 +132,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\WorkHorse\CroftWare Shift Tracker.csproj">
+    <ProjectReference Include="..\WorkHorse\WorkHorse.csproj">
       <Project>{0644D384-6BED-4791-82EE-1206C182A150}</Project>
-      <Name>CroftWare Shift Tracker</Name>
+      <Name>WorkHorse</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

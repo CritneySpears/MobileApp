@@ -8,12 +8,16 @@
              Title="Edit Times">
     <ContentPage.Content>
         <StackLayout>
-            <Editor x:Name="StartTime"
-                    Text="{Binding StartTime}"
-                    HeightRequest="100" />
-            <Editor x:Name="EndTime"
-                    Text="{Binding EndTime}"
-                    HeightRequest="100" />
+            <Label Text="Start Date and Time" />
+            <DatePicker x:Name="SelectedStartDate"
+                        Date="{Binding StartTime}"/>
+            <TimePicker x:Name="SelectedStartTime"
+                        Time="{Binding StartTime}" />
+            <Label Text="End Date and Time" />
+            <DatePicker x:Name="SelectedEndDate"
+                        Date="{Binding EndTime}" />
+            <TimePicker x:Name="SelectedEndTime"
+                        Time="{Binding EndTime}" />
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

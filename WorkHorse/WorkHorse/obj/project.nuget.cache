@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMERLOQDcywsXeNZRtCGSH6xkuiwjwGhCdxKmjAGNNCLCL0xnrFH1+WKZxTgAuKnWqzBClM5ALnPfeF4weKSlA==",
+  "dgSpecHash": "8Q0mffQU2pGRKzb5h2hdERbAI/jclmIzfl2yFV0uN7kjrYr6IE+96pwzlRNxgM6R1mamtoOicgkY9ANFSQ0MCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj",
+  "projectFilePath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

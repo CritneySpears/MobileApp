@@ -1,6 +1,6 @@
-WorkHorse.Droid.MainActivity, WorkHorse.Android;crc64c4a3b7a965245c06.MainActivity
-WorkHorse.Droid.MainActivity;crc64c4a3b7a965245c06.MainActivity
-workhorse.droid.MainActivity;crc64c4a3b7a965245c06.MainActivity
+WorkHorse.Droid.MainActivity, CroftWareShiftTracker.Android;crc64445f63e21392783e.MainActivity
+WorkHorse.Droid.MainActivity;crc64445f63e21392783e.MainActivity
+workhorse.droid.MainActivity;crc64445f63e21392783e.MainActivity
 Android.Support.V4.Widget.NestedScrollView+IOnScrollChangeListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor
 Android.Support.V4.Widget.NestedScrollView.IOnScrollChangeListenerImplementor;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor
 mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor;mono.android.support.v4.widget.NestedScrollView_OnScrollChangeListenerImplementor

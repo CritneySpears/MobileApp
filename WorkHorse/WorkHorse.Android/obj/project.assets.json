@@ -2247,8 +2247,8 @@
     },
     "Croftware Shift Tracker/1.0.0": {
       "type": "project",
-      "path": "../WorkHorse/CroftWare Shift Tracker.csproj",
-      "msbuildProject": "../WorkHorse/CroftWare Shift Tracker.csproj"
+      "path": "../WorkHorse/WorkHorse.csproj",
+      "msbuildProject": "../WorkHorse/WorkHorse.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2290,8 +2290,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj": {
-              "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj"
+            "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj": {
+              "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj"
             }
           }
         }

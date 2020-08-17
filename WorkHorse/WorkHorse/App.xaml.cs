@@ -3,6 +3,8 @@ using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using WorkHorse.Data;
+using Xamarin.Essentials;
+using System.Threading.Tasks;
 
 namespace WorkHorse
 {

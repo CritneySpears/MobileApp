@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "WorkHorse.Android.dll" comes first in this list. */
-		"WorkHorse.Android.dll",
+		/* We need to ensure that "CroftWareShiftTracker.Android.dll" comes first in this list. */
+		"CroftWareShiftTracker.Android.dll",
 		"Croftware Shift Tracker.dll",
 		"FormsViewGroup.dll",
 		"Plugin.SimpleAudioPlayer.Abstractions.dll",

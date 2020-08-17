@@ -16,10 +16,18 @@ namespace WorkHorse
         {
             InitializeComponent();
         }
-
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            var shift = (ShiftInstance)BindingContext;
+            SelectedStartTime.Time = shift.StartTime.TimeOfDay;
+            SelectedEndTime.Time = shift.EndTime.TimeOfDay;
+        }
         private async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var shift = (ShiftInstance)BindingContext;
+            shift.StartTime = SelectedStartDate.Date + SelectedStartTime.Time;
+            shift.EndTime = SelectedEndDate.Date + SelectedEndTime.Time;
             await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
         }

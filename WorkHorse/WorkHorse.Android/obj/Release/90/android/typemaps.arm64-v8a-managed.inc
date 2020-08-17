@@ -1,6 +1,13 @@
 	.section	.rodata.module0_managed_to_java,"a",@progbits
 	.type	module0_managed_to_java, @object
 module0_managed_to_java:
+	.word	33554434
+	.word	673
+	.size	module0_managed_to_java, 8
+
+	.section	.rodata.module1_managed_to_java,"a",@progbits
+	.type	module1_managed_to_java, @object
+module1_managed_to_java:
 	.word	33554435
 	.word	162
 	.word	33554436
@@ -109,29 +116,22 @@ module0_managed_to_java:
 	.word	190
 	.word	33554523
 	.word	191
-	.size	module0_managed_to_java, 432
+	.size	module1_managed_to_java, 432
 
-	.section	.rodata.module0_managed_to_java_duplicates,"a",@progbits
-	.type	module0_managed_to_java_duplicates, @object
-module0_managed_to_java_duplicates:
+	.section	.rodata.module1_managed_to_java_duplicates,"a",@progbits
+	.type	module1_managed_to_java_duplicates, @object
+module1_managed_to_java_duplicates:
 	.word	33554465
 	.word	193
 	.word	33554518
 	.word	179
-	.size	module0_managed_to_java_duplicates, 16
-
-	.section	.rodata.module1_managed_to_java,"a",@progbits
-	.type	module1_managed_to_java, @object
-module1_managed_to_java:
-	.word	33554435
-	.word	274
-	.size	module1_managed_to_java, 8
+	.size	module1_managed_to_java_duplicates, 16
 
 	.section	.rodata.module2_managed_to_java,"a",@progbits
 	.type	module2_managed_to_java, @object
 module2_managed_to_java:
-	.word	33554434
-	.word	693
+	.word	33554435
+	.word	274
 	.size	module2_managed_to_java, 8
 
 	.section	.rodata.module3_managed_to_java,"a",@progbits
@@ -1770,43 +1770,43 @@ module10_managed_to_java:
 	.word	33554904
 	.word	506
 	.word	33554905
-	.word	673
-	.word	33554906
 	.word	674
-	.word	33554907
+	.word	33554906
 	.word	675
-	.word	33554908
+	.word	33554907
 	.word	676
-	.word	33554909
+	.word	33554908
 	.word	677
-	.word	33554910
+	.word	33554909
 	.word	678
-	.word	33554912
+	.word	33554910
 	.word	679
-	.word	33554913
+	.word	33554912
 	.word	680
-	.word	33554915
+	.word	33554913
 	.word	681
-	.word	33554916
+	.word	33554915
 	.word	682
-	.word	33554917
+	.word	33554916
 	.word	683
-	.word	33554918
+	.word	33554917
 	.word	684
-	.word	33554924
-	.word	686
-	.word	33554927
+	.word	33554918
 	.word	685
-	.word	33554929
+	.word	33554924
 	.word	687
-	.word	33554934
+	.word	33554927
+	.word	686
+	.word	33554929
 	.word	688
-	.word	33554935
+	.word	33554934
 	.word	689
-	.word	33554936
+	.word	33554935
 	.word	690
-	.word	33554939
+	.word	33554936
 	.word	691
+	.word	33554939
+	.word	692
 	.size	module10_managed_to_java, 1520
 
 	.section	.rodata.module11_managed_to_java,"a",@progbits
@@ -1923,7 +1923,7 @@ module15_managed_to_java_duplicates:
 	.type	module16_managed_to_java, @object
 module16_managed_to_java:
 	.word	33554445
-	.word	692
+	.word	693
 	.size	module16_managed_to_java, 8
 
 	.section	.rodata.module17_managed_to_java,"a",@progbits

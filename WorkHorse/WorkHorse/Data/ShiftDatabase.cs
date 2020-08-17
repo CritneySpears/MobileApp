@@ -15,6 +15,24 @@ namespace WorkHorse.Data
         {
             _database = new SQLiteAsyncConnection(dbPath);
             _database.CreateTableAsync<ShiftInstance>().Wait();
+            _database.CreateTableAsync<State>().Wait();
+        }
+
+        public Task<State> GetState()
+        {
+            return _database.Table<State>().FirstOrDefaultAsync();
+        }
+
+        public Task<int> SetState(State state)
+        {
+            if (state.ClockState != null)
+            {
+                return _database.UpdateAsync(state);
+            }
+            else
+            {
+                return _database.InsertAsync(state);
+            }
         }
 
         public Task<List<ShiftInstance>> GetShiftsAsync()
@@ -53,6 +71,10 @@ namespace WorkHorse.Data
             return _database.DeleteAsync(instance);
         }
 
-        public Task WipeDatabase() => _database.DeleteAllAsync<ShiftInstance>();
+        public Task WipeDatabase()
+        {
+            _database.DeleteAllAsync<ShiftInstance>();
+            return _database.DeleteAllAsync<State>();
+        }
     }
 }

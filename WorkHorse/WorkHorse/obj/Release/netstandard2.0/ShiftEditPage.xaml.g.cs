@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("WorkHorse.ShiftEditPage.xaml", "ShiftEditPage.xaml", typeof(global::WorkHorse.ShiftEditPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CroftWare Shift Tracker.ShiftEditPage.xaml", "ShiftEditPage.xaml", typeof(global::WorkHorse.ShiftEditPage))]
 
 namespace WorkHorse {
     
@@ -17,16 +17,24 @@ namespace WorkHorse {
     public partial class ShiftEditPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Editor StartTime;
+        private global::Xamarin.Forms.DatePicker SelectedStartDate;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Editor EndTime;
+        private global::Xamarin.Forms.TimePicker SelectedStartTime;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.DatePicker SelectedEndDate;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.TimePicker SelectedEndTime;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ShiftEditPage));
-            StartTime = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Editor>(this, "StartTime");
-            EndTime = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Editor>(this, "EndTime");
+            SelectedStartDate = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.DatePicker>(this, "SelectedStartDate");
+            SelectedStartTime = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TimePicker>(this, "SelectedStartTime");
+            SelectedEndDate = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.DatePicker>(this, "SelectedEndDate");
+            SelectedEndTime = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TimePicker>(this, "SelectedEndTime");
         }
     }
 }
