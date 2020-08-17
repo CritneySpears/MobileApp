@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkHorse.Android", "WorkHo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkHorse.iOS", "WorkHorse.iOS\WorkHorse.iOS.csproj", "{4ADC5798-F0BC-4660-BDFB-7F0A50DBA724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkHorse", "WorkHorse\WorkHorse.csproj", "{0644D384-6BED-4791-82EE-1206C182A150}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CroftWare Shift Tracker", "WorkHorse\CroftWare Shift Tracker.csproj", "{0644D384-6BED-4791-82EE-1206C182A150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

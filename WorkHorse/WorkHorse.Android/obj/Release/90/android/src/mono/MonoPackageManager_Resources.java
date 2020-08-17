@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "WorkHorse.Android.dll" comes first in this list. */
 		"WorkHorse.Android.dll",
+		"Croftware Shift Tracker.dll",
 		"FormsViewGroup.dll",
 		"Plugin.SimpleAudioPlayer.Abstractions.dll",
 		"Plugin.SimpleAudioPlayer.dll",
@@ -11,7 +12,6 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
-		"WorkHorse.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

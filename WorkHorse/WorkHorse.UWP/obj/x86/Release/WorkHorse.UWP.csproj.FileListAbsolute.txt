@@ -241,8 +241,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Rel
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\Xamarin.Forms.Platform.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\Xamarin.Forms.Xaml.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\Xamarin.Forms.Xaml.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\WorkHorse.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\WorkHorse.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\WorkHorse.UWP.csprojAssemblyReference.cache
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\App.g.i.cs
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\App.g.cs
@@ -292,7 +290,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Rel
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Core.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WorkHorse.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WorkHorse.UWP.exe
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Microsoft.CSharp.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Microsoft.VisualBasic.dll
@@ -471,7 +468,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Rel
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WorkHorse.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Microsoft.Graphics.Canvas.winmd
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd
@@ -627,8 +623,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Rel
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Thread.ilpdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Xml.XPath.XDocument.ildll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Xml.XPath.XDocument.ilpdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.ildll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.ilpdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.UWP.closure.csv
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.UWP.csv
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.UWP.forwarders.csv
@@ -759,3 +753,9 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Rel
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\WorkHorse.UWP.Sg\DataContractSerializerHelper.g.cs
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\WorkHorse.UWP.Sg\PreInitStructs.cs
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\WorkHorse.UWP.Sg\sgargs.rsp
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Release\Croftware Shift Tracker.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Croftware Shift Tracker.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Croftware Shift Tracker.ildll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Croftware Shift Tracker.ilpdb

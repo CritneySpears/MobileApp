@@ -23,8 +23,8 @@
 	.section	.rodata.env.str.1,"aMS",%progbits,1
 	.type	.L.env.str.1, %object
 .L.env.str.1:
-	.asciz	"com.companyname.workhorse"
-	.size	.L.env.str.1, 26
+	.asciz	"com.companyname.croftwareshifttracker"
+	.size	.L.env.str.1, 38
 	.section	.data.application_config,"aw",%progbits
 	.type	application_config, %object
 	.p2align	2
@@ -92,7 +92,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",%progbits,1
 	.type	.L.env.str.8, %object
 .L.env.str.8:
-	.asciz	"97758ea1-d21a-4fd0-b881-2f0fa91c84fd"
+	.asciz	"b89a71fa-9604-49c4-8eda-1a0c582624c1"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",%progbits,1
 	.type	.L.env.str.9, %object

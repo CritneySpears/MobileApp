@@ -96,9 +96,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\WorkHorse\WorkHorse.csproj">
-      <Project>{79D37545-1640-4EA1-AABB-3D7FB393C864}</Project>
-      <Name>WorkHorse</Name>
+    <ProjectReference Include="..\WorkHorse\CroftWare Shift Tracker.csproj">
+      <Project>{0644D384-6BED-4791-82EE-1206C182A150}</Project>
+      <Name>CroftWare Shift Tracker</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

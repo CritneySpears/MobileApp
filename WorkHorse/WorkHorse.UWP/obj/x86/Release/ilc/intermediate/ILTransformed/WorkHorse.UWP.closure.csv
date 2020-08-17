@@ -1,3 +1,4 @@
+"Croftware Shift Tracker", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Microsoft.Win32.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
@@ -104,7 +105,6 @@ System.Xml.XDocument, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1
 System.Xml.XmlSerializer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Xml.XPath.XDocument, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-WorkHorse, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 WorkHorse.UWP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 WorkHorse.UWP.McgInterop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 Xamarin.Essentials, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null

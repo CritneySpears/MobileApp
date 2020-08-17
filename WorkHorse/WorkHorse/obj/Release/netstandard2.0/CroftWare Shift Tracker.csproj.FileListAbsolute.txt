@@ -1,0 +1,16 @@
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\Croftware Shift Tracker.deps.json
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\ref\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\bin\Release\netstandard2.0\Croftware Shift Tracker.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\CroftWare Shift Tracker.csprojAssemblyReference.cache
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\ShiftEditPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\ShiftViewPage.xaml.g.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\CroftWare Shift Tracker.AssemblyInfoInputs.cache
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\CroftWare Shift Tracker.AssemblyInfo.cs
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\CroftWare Shift Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\ref\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse\obj\Release\netstandard2.0\Croftware Shift Tracker.pdb

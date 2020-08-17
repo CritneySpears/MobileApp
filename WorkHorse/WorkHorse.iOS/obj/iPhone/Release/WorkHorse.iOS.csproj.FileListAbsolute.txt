@@ -51,9 +51,7 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\WorkHorse.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\Xamarin.Forms.Platform.iOS.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\WorkHorse.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\Xamarin.Forms.Platform.iOS.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Release\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
@@ -66,3 +64,5 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Release\XamlC.stamp
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Release\WorkHorse.iOS.csproj.CopyComplete
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\obj\iPhone\Release\WorkHorse.iOS.exe
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.iOS\bin\iPhone\Release\Croftware Shift Tracker.pdb

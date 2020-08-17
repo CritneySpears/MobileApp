@@ -11,6 +11,7 @@
 /subsystem windows
 /emitStackTraceMetadata
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.UWP.ilexe"
+/in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Croftware Shift Tracker.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Microsoft.Win32.Primitives.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Plugin.SimpleAudioPlayer.Abstractions.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Plugin.SimpleAudioPlayer.ildll"
@@ -69,7 +70,6 @@
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.Extensions.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Thread.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Xml.XPath.XDocument.ildll"
-/in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\WorkHorse.UWP.McgInterop.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Essentials.ildll"
 /in "C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Core.ildll"

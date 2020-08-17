@@ -904,7 +904,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "WorkHorse/1.0.0": {
+      "Croftware Shift Tracker/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -914,10 +914,10 @@
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
-          "bin/placeholder/WorkHorse.dll": {}
+          "bin/placeholder/Croftware Shift Tracker.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WorkHorse.dll": {}
+          "bin/placeholder/Croftware Shift Tracker.dll": {}
         }
       }
     }
@@ -2245,15 +2245,15 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "WorkHorse/1.0.0": {
+    "Croftware Shift Tracker/1.0.0": {
       "type": "project",
-      "path": "../WorkHorse/WorkHorse.csproj",
-      "msbuildProject": "../WorkHorse/WorkHorse.csproj"
+      "path": "../WorkHorse/CroftWare Shift Tracker.csproj",
+      "msbuildProject": "../WorkHorse/CroftWare Shift Tracker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
-      "WorkHorse >= 1.0.0",
+      "Croftware Shift Tracker >= 1.0.0",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.5.0.495"
     ]
@@ -2290,8 +2290,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj": {
-              "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\WorkHorse.csproj"
+            "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj": {
+              "projectPath": "C:\\Users\\Thefu\\Documents\\MobileApp\\MobileApp\\WorkHorse\\WorkHorse\\CroftWare Shift Tracker.csproj"
             }
           }
         }
