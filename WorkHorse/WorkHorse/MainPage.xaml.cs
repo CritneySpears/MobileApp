@@ -20,6 +20,22 @@ namespace WorkHorse
         {
             InitializeComponent();
             BindingContext = new ShiftInstance();
+            object value;
+            if (Xamarin.Forms.Application.Current.Properties.TryGetValue("ClockState", out value))
+            {
+                if (value.Equals(0))
+                {
+                    ClockedOut();
+                }
+                else
+                {
+                    ClockedIn();
+                }
+            }
+            else
+            {
+                ClockedOut();
+            }
         }
         async void OnShiftViewClicked(object sender, EventArgs e)
         {
@@ -58,6 +74,7 @@ namespace WorkHorse
             EndShiftButton.BackgroundColor = Color.FromHex("#83d1fb");
             StartShiftButton.IsEnabled = true;
             StartShiftButton.BackgroundColor = Color.FromHex("#0289d1");
+            Xamarin.Forms.Application.Current.Properties["ClockState"] = 0;
         }
 
         public void ClockedIn()
@@ -66,6 +83,7 @@ namespace WorkHorse
             StartShiftButton.BackgroundColor = Color.FromHex("#83d1fb");
             EndShiftButton.IsEnabled = true;
             EndShiftButton.BackgroundColor = Color.FromHex("#0289d1");
+            Xamarin.Forms.Application.Current.Properties["ClockState"] = 1;
         }
     }
 }

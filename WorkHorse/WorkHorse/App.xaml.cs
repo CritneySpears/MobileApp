@@ -33,6 +33,10 @@ namespace WorkHorse
 
         protected override void OnStart()
         {
+            if (!Xamarin.Forms.Application.Current.Properties.ContainsKey("ClockState"))
+            {
+                Xamarin.Forms.Application.Current.Properties["ClockState"] = 0;
+            }
         }
 
         protected override void OnSleep()
