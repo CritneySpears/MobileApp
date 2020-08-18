@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CroftWare Shift Tracker.MainPage.xaml", "MainPage.xaml", typeof(global::WorkHorse.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("WorkHorse.MainPage.xaml", "MainPage.xaml", typeof(global::WorkHorse.MainPage))]
 
 namespace WorkHorse {
     

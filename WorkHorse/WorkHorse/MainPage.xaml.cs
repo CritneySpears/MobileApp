@@ -44,18 +44,20 @@ namespace WorkHorse
 
         async void OnShiftStartButtonClicked(object sender, EventArgs e)
         {
+            ClockedIn();
+
             var shift = (ShiftInstance)BindingContext;
             shift.Date = DateTime.Today;
             shift.StartTime = DateTime.Now;
 
             await App.Database.SaveShiftAsync(shift);
             await Navigation.PopAsync();
-
-            ClockedIn();
         }
 
         async void OnShiftEndButtonClicked(object sender, EventArgs e)
         {
+            ClockedOut();
+
             EndShiftButton.IsEnabled = false;
             var shift = await App.Database.GetLastShiftAsync();
             shift.EndTime = DateTime.Now;
