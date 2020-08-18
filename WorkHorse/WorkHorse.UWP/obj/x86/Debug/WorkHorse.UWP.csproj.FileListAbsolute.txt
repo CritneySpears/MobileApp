@@ -173,8 +173,19 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\WindowsBase.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\mscorlib.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\netstandard.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLite-net.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\e_sqlite3.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Memory.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Xamarin.Essentials.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
@@ -184,9 +195,9 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Croftware Shift Tracker.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\WorkHorse.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\WorkHorse.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Croftware Shift Tracker.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\WorkHorse.UWP.csprojAssemblyReference.cache
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\App.g.i.cs
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\App.g.cs
@@ -202,6 +213,7 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\XamlC.stamp
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\WorkHorse.UWP.csproj.CopyComplete
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\Plugin.SimpleAudioPlayer.pri.xml
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\WorkHorse.UWP.exe
@@ -293,6 +305,7 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.Threading.SR.resw
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.Transactions.Local.SR.resw
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.ValueTuple.SR.resw
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.Memory.SR.resw
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\priconfig.xml
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\priconfig.xml.intermediate
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\unfiltered.layout.resfiles
@@ -311,16 +324,3 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160715180000000.json
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758552200000000.json
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLite-net.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\e_sqlite3.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Memory.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\FxResources.System.Memory.SR.resw
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Debug\Plugin.SimpleAudioPlayer.pri.xml

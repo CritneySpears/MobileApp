@@ -1,14 +1,15 @@
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\WorkHorse.Android.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\WorkHorse.Android.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.workhorse.apk
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.workhorse.aab
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.workhorse-Signed.aab
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.workhorse-Signed.apk
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\WorkHorse.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\WorkHorse.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\CroftWareShiftTracker.Android.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\CroftWareShiftTracker.Android.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.croftwareshifttracker.apk
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.croftwareshifttracker.aab
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.croftwareshifttracker-Signed.aab
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\com.companyname.croftwareshifttracker-Signed.apk
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\bin\Debug\Croftware Shift Tracker.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\build.props
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\adb.props
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\WorkHorse.Android.csprojAssemblyReference.cache
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\res.flag
@@ -40,12 +41,12 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\WorkHorse.Android.csproj.CoreCompileInputs.cache
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\XamlC.stamp
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\WorkHorse.Android.csproj.CopyComplete
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\WorkHorse.Android.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\WorkHorse.Android.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\com.companyname.workhorse.apk
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\CroftWareShiftTracker.Android.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\CroftWareShiftTracker.Android.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\com.companyname.croftwareshifttracker.apk
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\base.zip
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\com.companyname.workhorse.aab
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\com.companyname.workhorse.apks
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\com.companyname.croftwareshifttracker.aab
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\com.companyname.croftwareshifttracker.apks
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\res\values\styles.xml
@@ -65,6 +66,10 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\res\drawable\icon.png
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\uploadflags.txt
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\resolvedassemblies.hash
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\Croftware Shift Tracker.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\Croftware Shift Tracker.pdb
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\CroftWareShiftTracker.Android.dll
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\CroftWareShiftTracker.Android.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\FormsViewGroup.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\Java.Interop.dll
@@ -123,10 +128,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\System.Xml.Linq.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\System.Xml.Linq.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\System.Xml.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\WorkHorse.Android.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\WorkHorse.Android.pdb
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\WorkHorse.dll
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\WorkHorse.pdb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Common.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Runtime.dll
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -372,6 +373,7 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\VisualElementTracker_AttachTracker.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\WebViewRenderer.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\WebViewRenderer_JavascriptResult.java
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64445f63e21392783e\MainActivity.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64720bb2db43a66fe9\ButtonRenderer.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64720bb2db43a66fe9\CarouselPageRenderer.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64720bb2db43a66fe9\FormsFragmentPagerAdapter_1.java
@@ -406,7 +408,6 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64c4a3b7a965245c06\MainActivity.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64ee486da937c010f4\ButtonRenderer.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64ee486da937c010f4\FrameRenderer.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\crc64ee486da937c010f4\ImageRenderer.java
@@ -464,9 +465,8 @@ C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Deb
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\xamarin\essentials\fileProvider.java
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\WorkHorse.Android.csprojAssemblyReference.cache
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\bin\packaged_resources
-C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\com\companyname\workhorse\R.java
+C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\src\com\companyname\croftwareshifttracker\R.java
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\typemaps.arm64-v8a.o
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\typemaps.armeabi-v7a.o
 C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.Android\obj\Debug\90\android\typemaps.x86.o

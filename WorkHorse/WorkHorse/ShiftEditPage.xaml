@@ -44,7 +44,7 @@
                     HorizontalOptions="CenterAndExpand"
                     VerticalTextAlignment="Center"
                     WidthRequest="240"
-                    Text="Edit the Times in or out for this shift. Use the format dd/mm/yyyy hh:mm:ss or things will go wonky." />
+                    Text="Edit the times in or out for this shift. Click 'Save' to save your changes, or click 'Delete' to remove the shift completely." />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

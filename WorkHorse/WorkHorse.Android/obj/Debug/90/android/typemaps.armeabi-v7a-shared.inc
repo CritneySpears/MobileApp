@@ -28472,212 +28472,212 @@
 	.section	.rodata.java_type_name.4745,"aMS",%progbits,1
 	.type	.L.java_type_name.4745, %object
 .L.java_type_name.4745:
-	.asciz	"crc64720bb2db43a66fe9/ButtonRenderer"
-	.size	.L.java_type_name.4745, 37
+	.asciz	"crc64445f63e21392783e/MainActivity"
+	.size	.L.java_type_name.4745, 35
 
 	.section	.rodata.java_type_name.4746,"aMS",%progbits,1
 	.type	.L.java_type_name.4746, %object
 .L.java_type_name.4746:
-	.asciz	"crc64720bb2db43a66fe9/CarouselPageRenderer"
-	.size	.L.java_type_name.4746, 43
+	.asciz	"crc64720bb2db43a66fe9/ButtonRenderer"
+	.size	.L.java_type_name.4746, 37
 
 	.section	.rodata.java_type_name.4747,"aMS",%progbits,1
 	.type	.L.java_type_name.4747, %object
 .L.java_type_name.4747:
-	.asciz	"crc64720bb2db43a66fe9/FormsFragmentPagerAdapter_1"
-	.size	.L.java_type_name.4747, 50
+	.asciz	"crc64720bb2db43a66fe9/CarouselPageRenderer"
+	.size	.L.java_type_name.4747, 43
 
 	.section	.rodata.java_type_name.4748,"aMS",%progbits,1
 	.type	.L.java_type_name.4748, %object
 .L.java_type_name.4748:
-	.asciz	"crc64720bb2db43a66fe9/FormsViewPager"
-	.size	.L.java_type_name.4748, 37
+	.asciz	"crc64720bb2db43a66fe9/FormsFragmentPagerAdapter_1"
+	.size	.L.java_type_name.4748, 50
 
 	.section	.rodata.java_type_name.4749,"aMS",%progbits,1
 	.type	.L.java_type_name.4749, %object
 .L.java_type_name.4749:
-	.asciz	"crc64720bb2db43a66fe9/FragmentContainer"
-	.size	.L.java_type_name.4749, 40
+	.asciz	"crc64720bb2db43a66fe9/FormsViewPager"
+	.size	.L.java_type_name.4749, 37
 
 	.section	.rodata.java_type_name.4750,"aMS",%progbits,1
 	.type	.L.java_type_name.4750, %object
 .L.java_type_name.4750:
-	.asciz	"crc64720bb2db43a66fe9/FrameRenderer"
-	.size	.L.java_type_name.4750, 36
+	.asciz	"crc64720bb2db43a66fe9/FragmentContainer"
+	.size	.L.java_type_name.4750, 40
 
 	.section	.rodata.java_type_name.4751,"aMS",%progbits,1
 	.type	.L.java_type_name.4751, %object
 .L.java_type_name.4751:
-	.asciz	"crc64720bb2db43a66fe9/MasterDetailContainer"
-	.size	.L.java_type_name.4751, 44
+	.asciz	"crc64720bb2db43a66fe9/FrameRenderer"
+	.size	.L.java_type_name.4751, 36
 
 	.section	.rodata.java_type_name.4752,"aMS",%progbits,1
 	.type	.L.java_type_name.4752, %object
 .L.java_type_name.4752:
-	.asciz	"crc64720bb2db43a66fe9/MasterDetailPageRenderer"
-	.size	.L.java_type_name.4752, 47
+	.asciz	"crc64720bb2db43a66fe9/MasterDetailContainer"
+	.size	.L.java_type_name.4752, 44
 
 	.section	.rodata.java_type_name.4753,"aMS",%progbits,1
 	.type	.L.java_type_name.4753, %object
 .L.java_type_name.4753:
-	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer"
-	.size	.L.java_type_name.4753, 45
+	.asciz	"crc64720bb2db43a66fe9/MasterDetailPageRenderer"
+	.size	.L.java_type_name.4753, 47
 
 	.section	.rodata.java_type_name.4754,"aMS",%progbits,1
 	.type	.L.java_type_name.4754, %object
 .L.java_type_name.4754:
-	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer_ClickListener"
-	.size	.L.java_type_name.4754, 59
+	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer"
+	.size	.L.java_type_name.4754, 45
 
 	.section	.rodata.java_type_name.4755,"aMS",%progbits,1
 	.type	.L.java_type_name.4755, %object
 .L.java_type_name.4755:
-	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer_Container"
-	.size	.L.java_type_name.4755, 55
+	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer_ClickListener"
+	.size	.L.java_type_name.4755, 59
 
 	.section	.rodata.java_type_name.4756,"aMS",%progbits,1
 	.type	.L.java_type_name.4756, %object
 .L.java_type_name.4756:
-	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer_DrawerMultiplexedListener"
-	.size	.L.java_type_name.4756, 71
+	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer_Container"
+	.size	.L.java_type_name.4756, 55
 
 	.section	.rodata.java_type_name.4757,"aMS",%progbits,1
 	.type	.L.java_type_name.4757, %object
 .L.java_type_name.4757:
-	.asciz	"crc64720bb2db43a66fe9/PickerRenderer"
-	.size	.L.java_type_name.4757, 37
+	.asciz	"crc64720bb2db43a66fe9/NavigationPageRenderer_DrawerMultiplexedListener"
+	.size	.L.java_type_name.4757, 71
 
 	.section	.rodata.java_type_name.4758,"aMS",%progbits,1
 	.type	.L.java_type_name.4758, %object
 .L.java_type_name.4758:
-	.asciz	"crc64720bb2db43a66fe9/PickerRendererBase_1"
-	.size	.L.java_type_name.4758, 43
+	.asciz	"crc64720bb2db43a66fe9/PickerRenderer"
+	.size	.L.java_type_name.4758, 37
 
 	.section	.rodata.java_type_name.4759,"aMS",%progbits,1
 	.type	.L.java_type_name.4759, %object
 .L.java_type_name.4759:
-	.asciz	"crc64720bb2db43a66fe9/Platform_ModalContainer"
-	.size	.L.java_type_name.4759, 46
+	.asciz	"crc64720bb2db43a66fe9/PickerRendererBase_1"
+	.size	.L.java_type_name.4759, 43
 
 	.section	.rodata.java_type_name.4760,"aMS",%progbits,1
 	.type	.L.java_type_name.4760, %object
 .L.java_type_name.4760:
-	.asciz	"crc64720bb2db43a66fe9/ShellFragmentContainer"
-	.size	.L.java_type_name.4760, 45
+	.asciz	"crc64720bb2db43a66fe9/Platform_ModalContainer"
+	.size	.L.java_type_name.4760, 46
 
 	.section	.rodata.java_type_name.4761,"aMS",%progbits,1
 	.type	.L.java_type_name.4761, %object
 .L.java_type_name.4761:
-	.asciz	"crc64720bb2db43a66fe9/SwitchRenderer"
-	.size	.L.java_type_name.4761, 37
+	.asciz	"crc64720bb2db43a66fe9/ShellFragmentContainer"
+	.size	.L.java_type_name.4761, 45
 
 	.section	.rodata.java_type_name.4762,"aMS",%progbits,1
 	.type	.L.java_type_name.4762, %object
 .L.java_type_name.4762:
-	.asciz	"crc64720bb2db43a66fe9/TabbedPageRenderer"
-	.size	.L.java_type_name.4762, 41
+	.asciz	"crc64720bb2db43a66fe9/SwitchRenderer"
+	.size	.L.java_type_name.4762, 37
 
 	.section	.rodata.java_type_name.4763,"aMS",%progbits,1
 	.type	.L.java_type_name.4763, %object
 .L.java_type_name.4763:
-	.asciz	"crc64720bb2db43a66fe9/ViewRenderer_2"
-	.size	.L.java_type_name.4763, 37
+	.asciz	"crc64720bb2db43a66fe9/TabbedPageRenderer"
+	.size	.L.java_type_name.4763, 41
 
 	.section	.rodata.java_type_name.4764,"aMS",%progbits,1
 	.type	.L.java_type_name.4764, %object
 .L.java_type_name.4764:
-	.asciz	"crc64a0e0a82d0db9a07d/AccelerometerListener"
-	.size	.L.java_type_name.4764, 44
+	.asciz	"crc64720bb2db43a66fe9/ViewRenderer_2"
+	.size	.L.java_type_name.4764, 37
 
 	.section	.rodata.java_type_name.4765,"aMS",%progbits,1
 	.type	.L.java_type_name.4765, %object
 .L.java_type_name.4765:
-	.asciz	"crc64a0e0a82d0db9a07d/ActivityLifecycleContextListener"
-	.size	.L.java_type_name.4765, 55
+	.asciz	"crc64a0e0a82d0db9a07d/AccelerometerListener"
+	.size	.L.java_type_name.4765, 44
 
 	.section	.rodata.java_type_name.4766,"aMS",%progbits,1
 	.type	.L.java_type_name.4766, %object
 .L.java_type_name.4766:
-	.asciz	"crc64a0e0a82d0db9a07d/BarometerListener"
-	.size	.L.java_type_name.4766, 40
+	.asciz	"crc64a0e0a82d0db9a07d/ActivityLifecycleContextListener"
+	.size	.L.java_type_name.4766, 55
 
 	.section	.rodata.java_type_name.4767,"aMS",%progbits,1
 	.type	.L.java_type_name.4767, %object
 .L.java_type_name.4767:
-	.asciz	"crc64a0e0a82d0db9a07d/BatteryBroadcastReceiver"
-	.size	.L.java_type_name.4767, 47
+	.asciz	"crc64a0e0a82d0db9a07d/BarometerListener"
+	.size	.L.java_type_name.4767, 40
 
 	.section	.rodata.java_type_name.4768,"aMS",%progbits,1
 	.type	.L.java_type_name.4768, %object
 .L.java_type_name.4768:
-	.asciz	"crc64a0e0a82d0db9a07d/ConnectivityBroadcastReceiver"
-	.size	.L.java_type_name.4768, 52
+	.asciz	"crc64a0e0a82d0db9a07d/BatteryBroadcastReceiver"
+	.size	.L.java_type_name.4768, 47
 
 	.section	.rodata.java_type_name.4769,"aMS",%progbits,1
 	.type	.L.java_type_name.4769, %object
 .L.java_type_name.4769:
-	.asciz	"crc64a0e0a82d0db9a07d/EnergySaverBroadcastReceiver"
-	.size	.L.java_type_name.4769, 51
+	.asciz	"crc64a0e0a82d0db9a07d/ConnectivityBroadcastReceiver"
+	.size	.L.java_type_name.4769, 52
 
 	.section	.rodata.java_type_name.4770,"aMS",%progbits,1
 	.type	.L.java_type_name.4770, %object
 .L.java_type_name.4770:
-	.asciz	"crc64a0e0a82d0db9a07d/GyroscopeListener"
-	.size	.L.java_type_name.4770, 40
+	.asciz	"crc64a0e0a82d0db9a07d/EnergySaverBroadcastReceiver"
+	.size	.L.java_type_name.4770, 51
 
 	.section	.rodata.java_type_name.4771,"aMS",%progbits,1
 	.type	.L.java_type_name.4771, %object
 .L.java_type_name.4771:
-	.asciz	"crc64a0e0a82d0db9a07d/Listener"
-	.size	.L.java_type_name.4771, 31
+	.asciz	"crc64a0e0a82d0db9a07d/GyroscopeListener"
+	.size	.L.java_type_name.4771, 40
 
 	.section	.rodata.java_type_name.4772,"aMS",%progbits,1
 	.type	.L.java_type_name.4772, %object
 .L.java_type_name.4772:
-	.asciz	"crc64a0e0a82d0db9a07d/MagnetometerListener"
-	.size	.L.java_type_name.4772, 43
+	.asciz	"crc64a0e0a82d0db9a07d/Listener"
+	.size	.L.java_type_name.4772, 31
 
 	.section	.rodata.java_type_name.4773,"aMS",%progbits,1
 	.type	.L.java_type_name.4773, %object
 .L.java_type_name.4773:
-	.asciz	"crc64a0e0a82d0db9a07d/OrientationSensorListener"
-	.size	.L.java_type_name.4773, 48
+	.asciz	"crc64a0e0a82d0db9a07d/MagnetometerListener"
+	.size	.L.java_type_name.4773, 43
 
 	.section	.rodata.java_type_name.4774,"aMS",%progbits,1
 	.type	.L.java_type_name.4774, %object
 .L.java_type_name.4774:
-	.asciz	"crc64a0e0a82d0db9a07d/SensorListener"
-	.size	.L.java_type_name.4774, 37
+	.asciz	"crc64a0e0a82d0db9a07d/OrientationSensorListener"
+	.size	.L.java_type_name.4774, 48
 
 	.section	.rodata.java_type_name.4775,"aMS",%progbits,1
 	.type	.L.java_type_name.4775, %object
 .L.java_type_name.4775:
-	.asciz	"crc64a0e0a82d0db9a07d/SingleLocationListener"
-	.size	.L.java_type_name.4775, 45
+	.asciz	"crc64a0e0a82d0db9a07d/SensorListener"
+	.size	.L.java_type_name.4775, 37
 
 	.section	.rodata.java_type_name.4776,"aMS",%progbits,1
 	.type	.L.java_type_name.4776, %object
 .L.java_type_name.4776:
-	.asciz	"crc64a0e0a82d0db9a07d/TextToSpeechImplementation"
-	.size	.L.java_type_name.4776, 49
+	.asciz	"crc64a0e0a82d0db9a07d/SingleLocationListener"
+	.size	.L.java_type_name.4776, 45
 
 	.section	.rodata.java_type_name.4777,"aMS",%progbits,1
 	.type	.L.java_type_name.4777, %object
 .L.java_type_name.4777:
-	.asciz	"crc64a98abb514ffad9f1/CustomTabsServiceConnectionImpl"
-	.size	.L.java_type_name.4777, 54
+	.asciz	"crc64a0e0a82d0db9a07d/TextToSpeechImplementation"
+	.size	.L.java_type_name.4777, 49
 
 	.section	.rodata.java_type_name.4778,"aMS",%progbits,1
 	.type	.L.java_type_name.4778, %object
 .L.java_type_name.4778:
-	.asciz	"crc64a98abb514ffad9f1/KeepAliveService"
-	.size	.L.java_type_name.4778, 39
+	.asciz	"crc64a98abb514ffad9f1/CustomTabsServiceConnectionImpl"
+	.size	.L.java_type_name.4778, 54
 
 	.section	.rodata.java_type_name.4779,"aMS",%progbits,1
 	.type	.L.java_type_name.4779, %object
 .L.java_type_name.4779:
-	.asciz	"crc64c4a3b7a965245c06/MainActivity"
-	.size	.L.java_type_name.4779, 35
+	.asciz	"crc64a98abb514ffad9f1/KeepAliveService"
+	.size	.L.java_type_name.4779, 39
 
 	.section	.rodata.java_type_name.4780,"aMS",%progbits,1
 	.type	.L.java_type_name.4780, %object
@@ -77928,8 +77928,8 @@
 	.section	.rodata.managed_type_name.6971,"aMS",%progbits,1
 	.type	.L.managed_type_name.6971, %object
 .L.managed_type_name.6971:
-	.asciz	"WorkHorse.Droid.MainActivity, WorkHorse.Android"
-	.size	.L.managed_type_name.6971, 48
+	.asciz	"WorkHorse.Droid.MainActivity, CroftWareShiftTracker.Android"
+	.size	.L.managed_type_name.6971, 60
 	.section	.rodata.managed_type_name.6972,"aMS",%progbits,1
 	.type	.L.managed_type_name.6972, %object
 .L.managed_type_name.6972:

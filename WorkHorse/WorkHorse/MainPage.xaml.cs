@@ -20,26 +20,7 @@ namespace WorkHorse
         {
             InitializeComponent();
             BindingContext = new ShiftInstance();
-
-            //GetState();
         }
-
-        protected async void GetState()
-        {
-            var state = await App.Database.GetState();
-
-            if (state.ClockState == "Clocked In")
-            {
-                ClockedIn();
-            }
-            else
-            {
-                state.ClockState = "Clocked Out";
-                ClockedOut();
-            }
-            await App.Database.SetState(state);
-        }
-
         async void OnShiftViewClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ShiftViewPage());
@@ -71,28 +52,20 @@ namespace WorkHorse
             await Navigation.PopAsync();
         }
 
-        public async void ClockedOut()
+        public void ClockedOut()
         {
             EndShiftButton.IsEnabled = false;
             EndShiftButton.BackgroundColor = Color.FromHex("#83d1fb");
             StartShiftButton.IsEnabled = true;
             StartShiftButton.BackgroundColor = Color.FromHex("#0289d1");
-
-            var state = new State();
-            state.ClockState = "Clocked Out";
-            await App.Database.SetState(state);
         }
 
-        public async void ClockedIn()
+        public void ClockedIn()
         {
             StartShiftButton.IsEnabled = false;
             StartShiftButton.BackgroundColor = Color.FromHex("#83d1fb");
             EndShiftButton.IsEnabled = true;
             EndShiftButton.BackgroundColor = Color.FromHex("#0289d1");
-
-            var state = new State();
-            state.ClockState = "Clocked In";
-            await App.Database.SetState(state);
         }
     }
 }

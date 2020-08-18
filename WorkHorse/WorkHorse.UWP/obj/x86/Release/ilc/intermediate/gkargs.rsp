@@ -16,6 +16,6 @@
 /Lib:"C:\Users\Thefu\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\tools\x86\ilc\lib\Private"
 /WinMD:"C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd"
 /WinMD:"C:\Users\Thefu\Documents\MobileApp\MobileApp\WorkHorse\WorkHorse.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"14e56895-b81c-4da2-9f7e-9b1dd351bc05","Id":"0970b91a-0f8e-4cc8-b52f-a22f3431cfca","ProcessStartTime":637332771845762781}"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"14e56895-b81c-4da2-9f7e-9b1dd351bc05","Id":"900bc11c-a587-4ad4-8880-6acdb9d68dca","ProcessStartTime":637333509373810919}"
 /RdXmlPath:"C:\Users\Thefu\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\LibraryXML"
 /RunOnlyPreDR

@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 using WorkHorse.Data;
 using Xamarin.Essentials;
 using System.Threading.Tasks;
+using WorkHorse.Models;
 
 namespace WorkHorse
 {
